@@ -23,16 +23,16 @@ public class Question_5 {
         String operator = input.next();
 
 
-        if (operator == "*"){
+        if (operator.equals("*")){
             System.out.println(num_1 * num_2);
         }
-        if (operator == "/"){
+        if (operator.equals("/")){
             System.out.println(num_1 / num_2);
         }
-        if (operator == "+"){
+        if (operator.equals("+")){
             System.out.println(num_1 + num_2);
         }
-        if (operator == "-"){
+        if (operator.equals("-")){
             System.out.println(num_1 - num_2);
         }
 
