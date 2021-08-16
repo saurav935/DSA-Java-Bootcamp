@@ -50,7 +50,6 @@ def searchRange(nums,target):
         else:
             continue
 
-
     arr1.append(min(arr))
     arr1.append(max(arr))
 
