@@ -36,7 +36,6 @@ def searchRange(nums,target):
 
 #  Time complexity - O(n)
 def searchRange(nums,target):
-
     n = len(nums)
     arr = []
     arr1 = []
