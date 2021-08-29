@@ -1,6 +1,6 @@
 
-# Time - O(n)
-# Space - O(1)
+# Time complexity - O(n)
+# Space complexity - O(1)
 class Solution:
     def canJump(self, nums: List[int]) -> bool:
         max_reach = 0
@@ -14,8 +14,8 @@ class Solution:
         return True
 
 
-# Time - O(n)
-# Space - O(1)
+# Time complexity - O(n)
+# Space complexity - O(1)
 class Solution:
     def canJump(self, nums: List[int]) -> bool:
         i = 0
