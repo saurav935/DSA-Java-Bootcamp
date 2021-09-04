@@ -28,3 +28,4 @@ class Solution:
             else:
                 summ += i
         return count + 1
+    
