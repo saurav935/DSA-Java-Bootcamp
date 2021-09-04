@@ -8,6 +8,7 @@ class Solution:
             mid = l + (r - l) // 2
             if l == r:
                 return mid
+            
             if self.count(mid, nums) <= m:
                 r = mid
             elif self.count(mid, nums) > m:
