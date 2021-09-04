@@ -1,16 +1,13 @@
 
 class Solution:
     def splitArray(self, nums: List[int], m: int) -> int:
-
         l = max(nums)
         r = sum(nums)
-
+        
         while l <= r:
             mid = l + (r - l) // 2
-
             if l == r:
                 return mid
-
             if self.count(mid, nums) <= m:
                 r = mid
             elif self.count(mid, nums) > m:
