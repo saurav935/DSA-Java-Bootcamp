@@ -1,4 +1,32 @@
 
+# Google interview question
+# Using cyclic sort
+class Solution:
+    def findDisappearedNumbers(self, nums: List[int]) -> List[int]:
+        i = 0
+        arr = []
+        
+        while i < len(nums):
+            if nums[i] != nums[nums[i]-1]:
+                self.swap(nums,i,nums[i]-1)
+            else:
+                i += 1
+                
+        for j in range(0,len(nums)):
+            if j != nums[j]-1:
+                arr.append(j+1)        
+        return arr
+        
+                
+    def swap(self,arr,i,j):
+        temp = arr[i]
+        arr[i] = arr[j]
+        arr[j] = temp
+
+
+
+
+
 # Time complexity - O(n)
 # Space complexity - O(1)
 class Solution:
