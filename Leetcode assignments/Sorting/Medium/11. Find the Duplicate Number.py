@@ -1,4 +1,4 @@
-# Amazon interview question
+# Amazon and Microsoft interview question
 # Using cyclic sort
 class Solution:
     def findDuplicate(self, nums: List[int]) -> int:
