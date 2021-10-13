@@ -1,6 +1,6 @@
 
 # Time complexity - O(n)
-# Space complexity - O(1)
+# Space complexity - O(n)
 
 class Solution:
     def canMakeArithmeticProgression(self, arr: List[int]) -> bool:
@@ -31,11 +31,8 @@ class Solution:
 
 
 
-
-
-
 # Time complexity - O(nlogn)
-# Space complexity - O(1)
+# Space complexity - O(n)
 
 class Solution:
     def canMakeArithmeticProgression(self, arr: List[int]) -> bool:
