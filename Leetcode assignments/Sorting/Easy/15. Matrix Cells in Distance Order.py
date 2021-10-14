@@ -1,3 +1,5 @@
+# Not the most optimized solution, but if you get any please let me know in the comments.
+
 class Solution:
     def allCellsDistOrder(self, rows: int, cols: int, rCenter: int, cCenter: int) -> List[List[int]]:
         coordinates = []
