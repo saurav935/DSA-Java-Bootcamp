@@ -8,7 +8,6 @@ class Solution:
             for c in range(0,cols):
                 coordinates.append([r,c])
                 
-
         for i in coordinates:
             distance = abs(i[0] - rCenter) + abs(i[1] - cCenter)
             dist.append(distance)
