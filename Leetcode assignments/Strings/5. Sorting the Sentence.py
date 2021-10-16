@@ -1,6 +1,5 @@
 class Solution:
     def sortSentence(self, s: str) -> str:
-        
         words = s[::-1].split()
         words.sort()
         ans = []
@@ -14,7 +13,6 @@ class Solution:
 # Using hashmap    
 class Solution:
     def sortSentence(self, s: str) -> str:
-        
         hashmap = {}
         s = s.split()
         result = ""
@@ -24,11 +22,8 @@ class Solution:
                 hashmap[int(i[-1])] = i[:-1]
 
         a = sorted(hashmap)
-
         for q in range(1,len(a)+1):
-            
             result += hashmap[q]
-            
             if q != len(a):
                 result += " "
 
