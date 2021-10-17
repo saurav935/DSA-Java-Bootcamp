@@ -22,7 +22,6 @@ class Solution:
         for s in (s1,s2,s3,s4):
             if s == s[::-1]:
                 return True
-            
         return False
         
         
