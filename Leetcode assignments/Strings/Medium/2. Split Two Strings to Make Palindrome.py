@@ -26,12 +26,10 @@ class Solution:
         return False
         
         
-        
 
 # Gives TLE
 class Solution:
     def checkPalindromeFormation(self, a: str, b: str) -> bool:
-        
         for i in range(0,len(a)):
             a_p = a[:i]
             a_s = a[i:]
@@ -40,7 +38,6 @@ class Solution:
             
             if (a_p + b_s) == (a_p + b_s)[::-1] or (b_p + a_s) == (b_p + a_s)[::-1]:
                 return True
-            
         return False
 
       
