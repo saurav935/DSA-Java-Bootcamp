@@ -5,7 +5,6 @@ class Solution:
         
         for i in word1:
             word_1 += i
-            
         for j in word2:
             word_2 += j
                 
