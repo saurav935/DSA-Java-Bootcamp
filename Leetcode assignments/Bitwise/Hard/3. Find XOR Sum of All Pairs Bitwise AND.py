@@ -1,5 +1,5 @@
 '''
-# Brute force solution
+# Brute force solution (gives memory limit exceeded error)
 class Solution:
     def getXORSum(self, arr1: List[int], arr2: List[int]) -> int:
         and_arr = []
